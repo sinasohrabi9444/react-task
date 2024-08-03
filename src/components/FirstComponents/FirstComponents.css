@@ -1,0 +1,112 @@
+.show-posts {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  align-items: center;
+}
+.left-side {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.btn-post {
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+  transition: all 0.3s;
+  margin: 10px;
+  align-items: center;
+
+  border-radius: 8px;
+}
+.btn-post:hover {
+  border: 1px solid white;
+  transition: 0.3s;
+}
+.btn-post h5 {
+  margin-left: 5px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+  height: auto;
+  background-color: rgb(37, 31, 31);
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.img-post img {
+  width: 20rem;
+  border-radius: 10px;
+}
+
+.img-post {
+  margin: 30px;
+}
+.title-post {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.description {
+  color: rgb(163, 162, 162);
+  padding: 20px;
+}
+.right-side button {
+  width: 20%;
+  text-align: center;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 7px;
+  margin: 15px;
+  transition: all 0.2s;
+
+  cursor: pointer;
+}
+
+.right-side button:hover {
+  color: black;
+  background-color: white;
+}
+
+@media screen and (max-width: 720px) {
+  .left-side {
+    flex-direction: row;
+    font-size: 13px;
+  }
+
+  .show-posts {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 687px) {
+  .right-side button {
+    width: 40%;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .img-post img {
+    width: 15rem;
+  }
+  .right-side button {
+    width: 40%;
+    font-size: 12px;
+  }
+}

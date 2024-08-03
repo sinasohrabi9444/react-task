@@ -1,0 +1,71 @@
+.did-mount-container {
+  background-color: black;
+ 
+  width: 100%;
+}
+.wrapper-did-mount {
+  width: auto;
+  display: flex;
+  align-items: center;
+  
+  justify-content: center;
+  background-color: rgb(39, 39, 39);
+  padding: 20px;
+  margin: 50px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+
+}
+.loading{
+color: white;
+font-size: 40px;
+}
+.posts-did-mount{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header{
+    color: white;
+    text-align: center;
+}
+.solo-post{
+    padding: 10px;
+    margin: 10px;
+    width: 17rem;
+    color: white;
+    height: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 20px 8px rgba(170, 170, 170, 0.2);
+    flex-direction: column;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.solo-post img{
+    width: 15rem;
+    border-radius: 10px;
+}
+.solo-post h4{
+    text-align: start;
+    margin: 25px 0;
+    font-size: 20px;
+    width: 100%;
+}
+.solo-post p {
+    color: gray;
+}
+
+@media  screen and (max-width:1200px) {
+    .solo-post{
+        width: 12rem;
+
+    }
+    .solo-post img{
+        width: 10rem;
+    }
+}
+@media screen and (max-width
+) {
+    
+}
